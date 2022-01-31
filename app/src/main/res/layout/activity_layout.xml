@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:autofillHints="name"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bottom_border"
+            android:textSize="25sp"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border_color"
+            android:textSize="25sp"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border_style"
+            android:textSize="25sp"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:background="@drawable/edittext_rounded_corners_border"
+            android:textSize="25sp"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:hint="write_something_here"
+            android:padding="10dp"
+            android:background="@drawable/edittext_rounded_some_corners_border"
+            android:textSize="25sp"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
